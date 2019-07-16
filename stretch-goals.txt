@@ -1,0 +1,28 @@
+Merge Conflict: 
+
+A merge conflict is when two developers have worked on the same project modify the same line of code and
+and when they commit there work there is a conflict.
+
+To fix a conflict git will give you a merge conflict error message 
+and will display the conflict in your code it will look something like this 
+
+1 <<<<<<<<<<HEAD
+2  (this is your line of code
+3 ===============
+	(this is the conflict code)
+>>>>>>>>>>>>>> Origin/(wherever the conflict code came from)
+
+to fix a merge conflict you must collaberate with the other dev and chose wich line/lines of code that need 
+to be kept and then delete the other code and add commit and push the code back upstream.
+
+half of ssh randomart
+
++---[RSA 4096]----+
+|   . . =.o=. .. .|
+|  ..+ o ==o .  ..|
+|  o+....oo .    .|
+| . =o+ o.      . |
+
+
+
+
